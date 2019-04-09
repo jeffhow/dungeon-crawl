@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dungeon Crawl</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    </head>
+    <body>
+        <div class="game container">
+            <div class="row">
+                <div class="col-xs-12"><h1>Dungeon Crawl</h1></div>
+            </div>
+            <div class="hud row">
+                <div id="game-console" class="col-xs-6">
+                    
+                </div>
+                <div id="player-stats" class="col-xs-6">
+                    <div>Health: <span id="player-health">10</span></div>
+                    <div>AC: <span id="player-ac">10</span></div>
+                    <div>Attack: <span id="player-attack">10</span></div>
+                    <div>Damage: <span id="player-dmg">1</span></div>
+                </div>
+            </div>
+            <div class="game-controls row">
+                <div id="btn-attk" class="btn btn-default col-xs-4">Attack</div>
+                <div id="btn-sneak" class="btn btn-default col-xs-4">Sneak</div>
+                <div id="btn-retreat" class="btn btn-default col-xs-4">Retreat</div> 
+            </div>
+        </div>
+        <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+    </body>
+</html>
